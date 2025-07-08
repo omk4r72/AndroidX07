@@ -1,7 +1,5 @@
 # ANDROIDX07 APK Analyzer
 
-![ANDROIDX07 Banner](screenshot.png)
-
 A comprehensive APK vulnerability analysis tool written in Bash that automates security scanning of Android applications.
 
 ## Features
