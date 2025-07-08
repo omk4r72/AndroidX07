@@ -1,2 +1,21 @@
-# AndroidX07
-ANDROIDX07 APK Analyzer is a powerful Bash script tool designed for automated APK vulnerability scanning and security analysis. This tool performs comprehensive static analysis on Android APK files to identify security risks, exposed components, sensitive data leaks, and potential vulnerabilities .
+# ANDROIDX07 APK Analyzer
+
+![ANDROIDX07 Banner](screenshot.png)
+
+A comprehensive APK vulnerability analysis tool written in Bash that automates security scanning of Android applications.
+
+## Features
+
+- 🔍 Deep APK static analysis
+- 🔥 Firebase configuration detection
+- 🔑 Secret/hardcoded key identification
+- ⚠️ Permission auditing
+- 📜 Manifest analysis
+- 📊 HTML/PDF report generation
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/androidx07.git
+cd androidx07
