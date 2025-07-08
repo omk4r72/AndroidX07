@@ -1,0 +1,33 @@
+# ANDROIDX07 APK Analyzer - Required Tools and Dependencies
+
+### System Packages
+apktool
+jadx
+quark-engine
+androguard
+figlet
+wkhtmltopdf
+jq
+default-jdk
+python3
+python3-pip
+
+### Python Packages (for Androguard)
+androguard==3.4.0a1
+
+### Installation Commands:
+
+# For Debian/Ubuntu:
+sudo apt-get update && sudo apt-get install -y \
+    apktool \
+    jadx \
+    quark-engine \
+    figlet \
+    wkhtmltopdf \
+    jq \
+    default-jdk \
+    python3 \
+    python3-pip
+
+# Install Androguard via pip:
+python3 -m pip install androguard==3.4.0a1
