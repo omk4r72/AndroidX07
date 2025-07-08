@@ -19,5 +19,6 @@ A comprehensive APK vulnerability analysis tool written in Bash that automates s
 ```bash
 git clone https://github.com/yourusername/androidx07.git
 cd androidx07
+pip3 install -r required.txt
 chmod +x androidx07.sh
 ./androidx07.sh sample.apk
